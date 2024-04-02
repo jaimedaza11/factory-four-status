@@ -16,6 +16,8 @@ Your app description goes here. Briefly explain what your app does and what prob
 
 ## Configuration
 
+- To modify the interval of the API calls, open the `App.tsx` file located inside `src` folder. Look for the following text: `Modify interval for the API health status.`
+
 - `fetchDataIntervalSeconds`: Change the interval for fetching data in seconds. Ensure that the value is positive and greater than 0.
 
 ## Customization

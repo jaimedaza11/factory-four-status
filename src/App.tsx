@@ -12,7 +12,8 @@ export interface ApiResponse {
   time: number;
 }
 
-const fetchDataIntervalSeconds = 15; // Default interval in seconds
+// Modify interval for the API health status.
+const fetchDataIntervalSeconds = 15; //Ensure that the value is positive and greater than 0.
 
 const endpointNames = [
   "accounts",
