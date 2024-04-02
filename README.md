@@ -4,7 +4,7 @@ Your app description goes here. Briefly explain what your app does and what prob
 
 ## Installation
 
-1. Clone the repository: `git clone <https://github.com/jaimedaza/factory-four-status>`
+1. Clone the repository: `git clone https://github.com/jaimedaza/factory-four-status.git`
 
 2. Install dependencies: `npm install`
 
