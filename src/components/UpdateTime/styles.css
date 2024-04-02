@@ -1,0 +1,10 @@
+.timestamp {
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+@media (max-width: 370px) {
+  .timestamp {
+    margin: 0;
+  }
+}

@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Jaime's - FactotyFour Status Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Your app description goes here. Briefly explain what your app does and what problem it solves.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Clone the repository: `git clone <https://github.com/jaimedaza/factory-four-status>`
 
-### `npm start`
+2. Install dependencies: `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Start the development server: `npm start`
 
-### `npm test`
+2. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Configuration
 
-### `npm run build`
+- `fetchDataIntervalSeconds`: Change the interval for fetching data in seconds. Ensure that the value is positive and greater than 0.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Customization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can customize the following aspects of the app:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **UI:** Modify the styles and layout in the `src` directory.
+- **Endpoints:** Update the `endpointNames` array in `src/App.js` to include your desired endpoints.
 
-### `npm run eject`
+## Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React](https://reactjs.org/)
+- [Axios](https://github.com/axios/axios): for making HTTP requests
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you'd like to contribute to this project, please follow these steps:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add feature'`)
+5. Push to the branch (`git push origin feature`)
+6. Create a new Pull Request
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
