@@ -1,6 +1,6 @@
 # Jaime's - FactotyFour Status Page
 
-Your app description goes here. Briefly explain what your app does and what problem it solves.
+Status page for the FactoryFour APIs.
 
 ## Installation
 
